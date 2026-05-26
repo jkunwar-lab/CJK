@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ccb30ee2-5564-4d53-9a6d-985391b9e852",
+    "Name": "UsrYachtStatus",
+    "ModifiedOnUtc": "\/Date(1779825507000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yacht Statuses",
+    "DependsOn": []
+  }
+}
