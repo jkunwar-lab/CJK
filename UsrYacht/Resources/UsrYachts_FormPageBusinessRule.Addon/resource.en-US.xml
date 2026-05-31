@@ -2,7 +2,7 @@
 <Resources Culture="en-US">
 	<Group Type="String">
 		<Items>
-			<Item Name="AddonConfig.Rules.5c9b5fc0-3257-7a9f-7a50-3c3c4dbe03fe.Caption" Value="Hide elements: Comment" />
+			<Item Name="AddonConfig.Rules.9bffb83c-3120-0329-9721-64880d6ef40f.Caption" Value="Required Element : Comment" />
 			<Item Name="Caption" Value="Yachts form page (Business rules)" />
 		</Items>
 	</Group>

@@ -6,9 +6,19 @@
 			<Item Name="LocalizableStrings.AttachmentsTabContainer_caption.Value" Value="Ticke" />
 			<Item Name="LocalizableStrings.Button_JSTest_caption.Value" Value="JS Test" />
 			<Item Name="LocalizableStrings.CrewCannotBeLess.Value" Value="Crew cannot be less than 2" />
-			<Item Name="LocalizableStrings.EmailInput_3hmxzb5_caption.Value" Value="Email address" />
-			<Item Name="LocalizableStrings.EmailInput_3hmxzb5_label.Value" Value="Captain's email" />
+			<Item Name="LocalizableStrings.EmailInput_CaptainEmail_caption.Value" Value="Email address" />
+			<Item Name="LocalizableStrings.EmailInput_CaptainEmail_label.Value" Value="Captain's email" />
+			<Item Name="LocalizableStrings.ExpansionPanel_vcypg5g_title.Value" Value="Yacht rentals" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_8bdf0me_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_nani8ea_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_fvz9bvh_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_h9mk5o5_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_tbgtlml_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jd6ivv5_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.LengthCannotBeMore.Value" Value="Length must be shorter than 5000" />
+			<Item Name="LocalizableStrings.MultiSelect_Categories_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
+			<Item Name="LocalizableStrings.PriceCannotBeMore.Value" Value="Price per day must be lower than 100000" />
 			<Item Name="LocalizableStrings.addRecord_ctt7dxs_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_kashx1g_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mhoj59p_caption.Value" Value="Add new" />

@@ -68,8 +68,8 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						},
 						"columns": {
 							"dragAndDrop": false,
-							"resizing": false,
-							"adding" : false
+							"resizing": true,
+							"adding": false
 						},
 						"editable": {
 							"enable": false,

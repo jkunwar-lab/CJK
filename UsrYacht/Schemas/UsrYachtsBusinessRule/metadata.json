@@ -241,8 +241,7 @@
                           "UId": "dc0e0b69-1d11-59b5-eee5-5bc1e2ef64a3",
                           "BRE1": "Float2",
                           "BRE2": "AttributeValue",
-                          "BRX1": "UsrTicketPrice",
-                          "BRX2": "null"
+                          "BRX1": "UsrTicketPrice"
                         },
                         "BRA3": {
                           "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleFormulaExpression",
@@ -339,7 +338,8 @@
                 "BRT1": "UsrPassengerCount"
               }
             ],
-            "BR3": "BusinessRule_d57ce6d"
+            "BR3": "BusinessRule_d57ce6d",
+            "BR4": false
           }
         ]
       }
