@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Страница записи Yachts" />
+			<Item Name="LocalizableStrings.AttachmentsTabContainer_caption.Value" Value="Файлы" />
 		</Items>
 	</Group>
 </Resources>

@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yachts form page" />
+			<Item Name="LocalizableStrings.AttachmentsTabContainer_caption.Value" Value="Załączniki" />
 		</Items>
 	</Group>
 </Resources>
