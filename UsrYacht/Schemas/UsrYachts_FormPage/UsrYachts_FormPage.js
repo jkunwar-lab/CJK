@@ -262,7 +262,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "PassengerCount",
+				"name": "EmailInput_3hmxzb5",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -270,13 +270,16 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"row": 2,
 						"rowSpan": 1
 					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_UsrColumn12_jf80c2n",
-					"control": "$PDS_UsrColumn12_jf80c2n",
-					"readonly": false,
-					"placeholder": "",
+					"type": "crt.EmailInput",
+					"label": "#ResourceString(EmailInput_3hmxzb5_label)#",
+					"control": "$PDS_UsrCaptainEmail_fw8390e",
 					"labelPosition": "auto",
-					"tooltip": ""
+					"placeholder": "",
+					"tooltip": "",
+					"needHandleSave": false,
+					"caption": "#ResourceString(EmailInput_3hmxzb5_caption)#",
+					"visible": true,
+					"readonly": true
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -313,7 +316,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "DriveType",
+				"name": "PassengerCount",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -321,20 +324,13 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"row": 3,
 						"rowSpan": 1
 					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrColumn13_k42x0v4",
-					"ariaLabel": "",
-					"isAddAllowed": true,
-					"showValueAsLink": false,
-					"labelPosition": "auto",
-					"controlActions": [],
-					"listActions": [],
-					"tooltip": "",
-					"control": "$PDS_UsrColumn13_k42x0v4",
-					"visible": true,
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrColumn12_jf80c2n",
+					"control": "$PDS_UsrColumn12_jf80c2n",
 					"readonly": false,
 					"placeholder": "",
-					"valueDetails": null
+					"labelPosition": "auto",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -365,7 +361,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "Manager",
+				"name": "DriveType",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -374,15 +370,15 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrColumn15_e7arp7m",
+					"label": "$Resources.Strings.PDS_UsrColumn13_k42x0v4",
 					"ariaLabel": "",
 					"isAddAllowed": true,
-					"showValueAsLink": true,
+					"showValueAsLink": false,
 					"labelPosition": "auto",
 					"controlActions": [],
 					"listActions": [],
 					"tooltip": "",
-					"control": "$PDS_UsrColumn15_e7arp7m",
+					"control": "$PDS_UsrColumn13_k42x0v4",
 					"visible": true,
 					"readonly": false,
 					"placeholder": "",
@@ -391,23 +387,6 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 7
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_tvs73jl",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_tvs73jl_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "Manager",
-				"propertyName": "listActions",
-				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -440,12 +419,58 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "Country",
+				"name": "Manager",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
 						"colSpan": 1,
 						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrColumn15_e7arp7m",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_UsrColumn15_e7arp7m",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 9
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_tvs73jl",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_tvs73jl_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "Manager",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Country",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 6,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -465,7 +490,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 9
+				"index": 10
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -488,7 +513,16 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrColumn9_rojc1au": {
 						"modelConfig": {
 							"path": "PDS.UsrPrice"
-						}
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 50,
+									"message": "#ResourceString(PriceCannotBeLess)#"
+								}
+							}
+						}							
 					},
 					"PDS_UsrColumn10_6yq72jj": {
 						"modelConfig": {
@@ -511,7 +545,16 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrColumn11_yaxbkkg": {
 						"modelConfig": {
 							"path": "PDS.UsrCrewCount"
-						}
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 2,
+									"message": "#ResourceString(CrewCannotBeLess)#"
+								}
+							}
+						}							
 					},
 					"PDS_UsrColumn12_jf80c2n": {
 						"modelConfig": {
@@ -622,6 +665,11 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"modelConfig": {
 							"path": "PDS.UsrTicketPrice"
 						}
+					},
+					"PDS_UsrCaptainEmail_fw8390e": {
+						"modelConfig": {
+							"path": "PDS.UsrCaptainEmail_fw8390e"
+						}
 					}
 				}
 			},
@@ -654,7 +702,13 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "UsrYachts"
+							"entitySchemaName": "UsrYachts",
+							"attributes": {
+								"UsrCaptainEmail_fw8390e": {
+									"path": "UsrCaptain.Email",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					}
@@ -674,9 +728,54 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
 				}
-			}
+			},
+			{
+				request: "crt.HandleViewModelAttributeChangeRequest",
+				/* The custom implementation of the system query handler. */
+				handler: async (request, next) => {
+      				if (request.attributeName === 'PDS_UsrColumn9_rojc1au' || 		        // if price changed
+					   request.attributeName === 'PDS_UsrColumn12_jf80c2n' ) { 		// or Passenger count changed
+						let price = await request.$context.PDS_UsrColumn9_rojc1au;
+						let passengers = await request.$context.PDS_UsrColumn12_jf80c2n;
+						let ticket_price = price / passengers;
+						request.$context.PDS_UsrTicketPrice_mahnbe4 = ticket_price;
+					}
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			}			
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{
+			"usr.DGValidator": {
+				validator: function (config) {
+					return function (control) {
+						let value = control.value;
+						let minValue = config.minValue;
+						let valueIsCorrect = value >= minValue;
+						var result;
+						if (valueIsCorrect) {
+							result = null;
+						} else {
+							result = {
+								"usr.DGValidator": { 
+									message: config.message
+								}
+							};
+						}
+						return result;
+					};
+				},
+				params: [
+					{
+						name: "minValue"
+					},
+					{
+						name: "message"
+					}
+				],
+				async: false
+			}			
+		}/**SCHEMA_VALIDATORS*/
 	};
 });

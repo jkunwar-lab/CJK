@@ -5,6 +5,10 @@
 			<Item Name="Caption" Value="Yachts form page" />
 			<Item Name="LocalizableStrings.AttachmentsTabContainer_caption.Value" Value="Ticke" />
 			<Item Name="LocalizableStrings.Button_JSTest_caption.Value" Value="JS Test" />
+			<Item Name="LocalizableStrings.CrewCannotBeLess.Value" Value="Crew cannot be less than 2" />
+			<Item Name="LocalizableStrings.EmailInput_3hmxzb5_caption.Value" Value="Email address" />
+			<Item Name="LocalizableStrings.EmailInput_3hmxzb5_label.Value" Value="Captain's email" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
 			<Item Name="LocalizableStrings.addRecord_ctt7dxs_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_kashx1g_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mhoj59p_caption.Value" Value="Add new" />
