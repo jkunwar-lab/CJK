@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Yachts form page" />
 			<Item Name="LocalizableStrings.AttachmentsTabContainer_caption.Value" Value="Ticke" />
 			<Item Name="LocalizableStrings.Button_JSTest_caption.Value" Value="JS Test" />
+			<Item Name="LocalizableStrings.Button_Run_caption.Value" Value="Run" />
 			<Item Name="LocalizableStrings.CrewCannotBeLess.Value" Value="Crew cannot be less than 2" />
 			<Item Name="LocalizableStrings.EmailInput_CaptainEmail_caption.Value" Value="Email address" />
 			<Item Name="LocalizableStrings.EmailInput_CaptainEmail_label.Value" Value="Captain's email" />
@@ -16,6 +17,7 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_tbgtlml_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jd6ivv5_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.LengthCannotBeMore.Value" Value="Length must be shorter than 5000" />
+			<Item Name="LocalizableStrings.MenuItem_vwupvbe_caption.Value" Value="Avg Price Process" />
 			<Item Name="LocalizableStrings.MultiSelect_Categories_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
 			<Item Name="LocalizableStrings.PriceCannotBeMore.Value" Value="Price per day must be lower than 100000" />

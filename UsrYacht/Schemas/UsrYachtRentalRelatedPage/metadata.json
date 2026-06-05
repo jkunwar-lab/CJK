@@ -26,6 +26,17 @@
       },
       "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
       "TypeColumnValue": null
+    },
+    {
+      "UId": "bc4eeed5-511e-1f3f-1c31-46ad00e7c0b7",
+      "PageSchemaUId": "dd3d6354-fd02-47e7-b432-4daeb79b7379",
+      "IsDefault": false,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": true
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
     }
   ],
   "TypeColumnUId": null

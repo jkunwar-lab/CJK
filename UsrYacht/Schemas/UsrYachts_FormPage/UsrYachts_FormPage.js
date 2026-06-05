@@ -64,6 +64,47 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "Button_Run",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_Run_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"menuItems": [],
+					"clickMode": "menu",
+					"visible": true,
+					"icon": "actions-button-icon"
+				},
+				"parentName": "ActionButtonsContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_vwupvbe",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_vwupvbe_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAvgTicketPrice",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "YachtId"
+						}
+					}
+				},
+				"parentName": "Button_Run",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Button_JSTest",
 				"values": {
 					"type": "crt.Button",
@@ -81,7 +122,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "ActionButtonsContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -836,9 +877,9 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 								"params": {
 									"maxValue": 5000,
 									"message": "#ResourceString(LengthCannotBeMore)#"
-								}								
+								}
 							}
-						}						
+						}
 					},
 					"PDS_UsrColumn9_rojc1au": {
 						"modelConfig": {
@@ -857,7 +898,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 								"params": {
 									"maxValue": 100000,
 									"message": "#ResourceString(PriceCannotBeMore)#"
-								}								
+								}
 							}
 						}
 					},

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Yacht Avg Price" />
+			<Item Name="LocalizableStrings.PageTitle_caption.Value" Value="Yacht Avg Price" />
+			<Item Name="LocalizableStrings.SaveButton_caption.Value" Value="Ok" />
+			<Item Name="Parameters.0f543e76-4267-e8e9-3353-02c5712b6cfb.Caption" Value="Avg Price" />
+			<Item Name="Parameters.64abc9d9-efc6-a719-7c81-adb980da31b8.Caption" Value="SQL Text" />
+		</Items>
+	</Group>
+</Resources>
