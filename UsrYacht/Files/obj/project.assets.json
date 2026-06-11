@@ -8,17 +8,17 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_CJK\\Default\\dotnet\\.nuget\\packages\\": {},
+    "C:\\Users\\jkunwar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "8.3.4.2753",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Creatio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\UsrYacht.csproj",
       "projectName": "UsrYacht",
       "projectPath": "D:\\Creatio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\UsrYacht.csproj",
-      "packagesPath": "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_CJK\\Default\\dotnet\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\jkunwar\\.nuget\\packages\\",
       "outputPath": "D:\\Creatio\\Terrasoft.WebApp\\Terrasoft.Configuration\\Pkg\\UsrYacht\\Files\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -26,7 +26,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\WINDOWS\\TEMP\\1\\IIS APPPOOL_CJK\\Default\\dotnet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jkunwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -37,12 +37,10 @@
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
-          "targetAlias": "net472",
           "projectReferences": {}
         }
       },
@@ -50,19 +48,10 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
-      "net472": {
-        "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.314\\RuntimeIdentifierGraph.json"
-      }
+      "net472": {}
     }
   }
 }

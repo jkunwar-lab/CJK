@@ -17,6 +17,8 @@
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_tbgtlml_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jd6ivv5_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.LengthCannotBeMore.Value" Value="Length must be shorter than 5000" />
+			<Item Name="LocalizableStrings.MenuItem_4fdeoag_caption.Value" Value="Yacht Service" />
+			<Item Name="LocalizableStrings.MenuItem_AddRentals_caption.Value" Value="Add Rentals" />
 			<Item Name="LocalizableStrings.MenuItem_vwupvbe_caption.Value" Value="Avg Price Process" />
 			<Item Name="LocalizableStrings.MultiSelect_Categories_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50" />
